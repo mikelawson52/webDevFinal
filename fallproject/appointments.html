@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Website for Barking Beauty Dog Grooming based in Bethel, Ohio">
+<meta name="author" content="Michael Lawson">
+<title>Barking Beauty Dog Grooming</title>
+<link href="barkingbeautystyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class = "wrapper">
+  <header>
+    <div class="textalign">
+      <h1> Barking Beauty Dog Grooming </h1>
+    </div>
+     <div>
+   		<img src="Grace.jpg" alt="Barking Beauty Dog Grooming Logo Of A Groomed Black Lab Puppy" width="250" height="150" class="logo"/>
+	 </div>
+    <nav class = "nav">
+    <ol>
+		<li><a href="index.html"> Home </a></li>
+		<li><a href="location.html"> Location </a></li>
+		<li><a href="services.html"> Services </a></li>
+		<li><a href="dogboarding.html"> Dog Boarding </a></li>
+		<li><a href="appointments.html"> Appointments </a></li>
+    </ol>
+    </nav>
+  </header>
+  <div>
+  <div class = contentOneColumn>
+  <h3>Make An Appointment</h3>
+  	<p>
+  		Please fill out the form below to make an appointment.  Include your name, e-mail, phone number, the date of your appointment, the breed of your dog, and any additional information you'd like us to know about your dog!<br><br>
+  		Fields marked with a * are required fields.
+  	</p>
+  </div>
+  <div id = "formSection">
+  	<form name="barkingBeautyDogGroomingReviews" method ="post" action="appointments.html">
+
+	<label for="name">*Name:</label>
+	<input type="text" name="name" id="name" required><br>
+	
+	<label for="email">E-mail:</label>
+	<input type="email" name="email" id="email"><br>
+	
+	<label for="phoneNumber">*Phone Number:</label>
+	<input type="text" name="phoneNumber" id="phoneNumber" required><br>
+	
+	<label for="dateRequested">*Date Requested:</label>
+	<input type="date" name="dateRequested" id="dateRequested" required><br>
+	
+	<label for="breedOfDog">Breed Of Dog:</label>
+	<input type="text" name="breedOfDog" id="breedOfDog"><br>
+	
+	<label for="additionalInformation">Additional Information:</label>
+	<textarea name="additionalInformation" id="additionalInformation" rows="5" cols="60"></textarea>
+	<br>
+	<input type="submit" value="Request Appointment">
+	
+</form>
+	</div>
+  </div>
+  <footer class = "footer">
+  	&copy;2017 - <strong>Barking Beauty Dog Grooming</strong><br>
+  	This page was created by Michael Lawson for IT2040 FS17 Fall Project<br>
+	Email me at<a href="mailto:lawsonm6@mail.uc.edu"> lawsonm6@mail.uc.edu</a>
+  </footer>
+</div>
+</body>
+</html>
